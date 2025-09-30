@@ -1,0 +1,17 @@
+# requirements.txt
+flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+PyPDF2==3.0.1
+langchain==0.1.16
+langchain-community==0.0.33
+langchain-groq==0.1.2
+sentence-transformers==2.7.0
+transformers==4.39.3
+huggingface-hub==0.22.2
+tokenizers==0.18.0  
+faiss-cpu==1.8.0
+rank-bm25==0.2.2
+numpy==1.26.4
+# torch==2.2.2 # If you are on CPU, ensure you have the CPU-only version.
+packaging==24.0
