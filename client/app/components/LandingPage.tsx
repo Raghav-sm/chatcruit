@@ -68,13 +68,13 @@ export default function LandingPage() {
                 <div className="space-y-6">
                   <div className="border-b-2 border-gray-300 pb-4">
                     <h2 className="text-2xl font-bold text-black">
-                      Sarah Johnson
+                      Raj Sharma
                     </h2>
                     <p className="text-gray-700 font-medium">
-                      Senior Product Designer
+                      Senior AI Engineer
                     </p>
                     <p className="text-sm text-gray-600 mt-2">
-                      5+ years experience • San Francisco, CA
+                      5+ years experience • Bengaluru, India
                     </p>
                   </div>
 
@@ -84,11 +84,11 @@ export default function LandingPage() {
                     </h3>
                     <div className="flex flex-wrap gap-2">
                       {[
-                        "Figma",
-                        "UI/UX Design",
-                        "Prototyping",
-                        "Design Systems",
-                        "User Research",
+                        "Machine Learning",
+                        "Python",
+                        "TensorFlow",
+                        "Deep Learning",
+                        "NLP",
                       ].map((skill) => (
                         <span
                           key={skill}
@@ -107,24 +107,34 @@ export default function LandingPage() {
                     <div className="space-y-3">
                       <div>
                         <div className="flex justify-between items-start">
-                          <span className="font-medium">Lead Designer</span>
+                          <span className="font-medium">AI Engineer</span>
                           <span className="text-sm text-gray-600">
-                            2020-Present
+                            2022-Present
                           </span>
                         </div>
-                        <p className="text-sm text-gray-600">TechCorp Inc.</p>
+                        <p className="text-sm text-gray-600">Cubrik</p>
+                      </div>
+                      <div>
+                        <div className="flex justify-between items-start">
+                          <span className="font-medium">ML Engineer</span>
+                          <span className="text-sm text-gray-600">
+                            2020-2022
+                          </span>
+                        </div>
+                        <p className="text-sm text-gray-600">dsy.ai</p>
+                      </div>
+                      <div>
+                        <div className="flex justify-between items-start">
+                          <span className="font-medium">
+                            Junior AI Developer
+                          </span>
+                          <span className="text-sm text-gray-600">
+                            2018-2020
+                          </span>
+                        </div>
+                        <p className="text-sm text-gray-600">Yakult</p>
                       </div>
                     </div>
-                  </div>
-
-                  <div className="bg-gradient-to-r from-gray-800 to-black text-white p-4 rounded-lg">
-                    <div className="flex items-center gap-2">
-                      <TrendingUp className="w-5 h-5" />
-                      <span className="font-semibold">AI Score: 92/100</span>
-                    </div>
-                    <p className="text-sm mt-1 opacity-90">
-                      Excellent cultural fit
-                    </p>
                   </div>
                 </div>
               </div>
